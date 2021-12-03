@@ -1,0 +1,40 @@
+주피터랩 설치
+$pip install jupyterlab
+
+실행
+$jupyter lab
+
+config 파일 이용
+$jupyter lab --generate-config
+$jupyter lab --config=my_config.py
+$jupyter lab --config=~/config_dir/my_config.py
+
+c.Notebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+아나콘다 설치
+아나콘다 다운로드
+$ cd Downloads
+$ bash Anaconda3-2020.11-Linux-x86_64.sh
+$ sudo gedit ~/.bashrc
+편집기 마지막줄에
+export PATH=~/anaconda3/bin:~/anaconda3/condabin:$PATH 추가
+$sorce ~/.bashrc
+conda -v(설치확인)
+
+실행
+$ conda activate
+종료
+$ conda deactivate
