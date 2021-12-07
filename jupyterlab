@@ -9,8 +9,8 @@ $jupyter lab --generate-config
 $jupyter lab --config=my_config.py
 $jupyter lab --config=~/config_dir/my_config.py
 
-c.Notebook
-
+c.NotebookApp.open_browser = false
+c.NotebookApp.password = 'password'
 
 
 
